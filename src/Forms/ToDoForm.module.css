@@ -45,6 +45,7 @@ input {
   border-bottom: 2px solid #76d862;
   box-shadow: none;
   color: #111;
+  font-size: large;
   background: #d8e9a8;
 }
 input:invalid {
