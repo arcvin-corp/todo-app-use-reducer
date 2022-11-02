@@ -1,0 +1,11 @@
+.container {
+  width: 50rem;
+  background: transparent;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.app-header {
+  border-top: 4rem solid #4e9f3d;
+  border-radius: 5px 5px 0px 0px;
+}

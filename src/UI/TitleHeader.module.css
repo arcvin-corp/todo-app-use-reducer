@@ -1,0 +1,13 @@
+.title-header {
+  background-color: #4e9f3d;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0px 8px 13px 0px #1e5128;
+}
+
+.title-header h1 {
+  font: inherit;
+  color: white;
+  font-size: 36px;
+  padding: 0.5rem 1rem;
+  margin: 0;
+}

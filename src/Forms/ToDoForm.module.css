@@ -1,0 +1,62 @@
+/* .todo-form {
+  padding: 2rem 0.5rem 1.5rem;
+}
+
+input {
+  margin-left: 1rem;
+  width: 70%;
+  height: 2.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 3px white;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+.todo-form {
+  margin: 2.5rem;
+  padding: 2rem 2rem;
+  position: relative;
+}
+
+.input-field {
+  position: relative;
+  width: auto;
+  height: 44px;
+  line-height: 44px;
+}
+label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font: inherit;
+  width: 100%;
+  color: #557bb687;
+  transition: 0.2s all;
+  cursor: text;
+}
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #76d862;
+  box-shadow: none;
+  color: #111;
+  background: #d8e9a8;
+}
+input:invalid {
+  outline: 0;
+}
+input:focus,
+input:valid {
+  border-color: #1e5128;
+}
+input:focus ~ label,
+input:valid ~ label {
+  font-size: 14px;
+  top: -24px;
+  color: #1e5128;
+}
