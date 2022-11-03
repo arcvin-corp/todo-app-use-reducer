@@ -7,8 +7,12 @@ function App() {
   return (
     <div className={style.container}>
       <Card>
-        <TitleHeader title="ToDo-Awe" />
-        <ToDoForm />
+        <TitleHeader title="To-Do" />
+        <ToDoForm type="text" id="task" label="Add your to-do item..." />
+      </Card>
+      <Card>
+        <TitleHeader title="To-Do" />
+        <ToDoForm type="text" id="task-1" label="Add your to-do item..." />
       </Card>
     </div>
   );
