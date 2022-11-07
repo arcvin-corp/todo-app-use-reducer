@@ -41,7 +41,7 @@ input:valid {
 input:focus ~ label,
 input:valid ~ label {
   font-size: 14px;
-  top: -40px;
+  top: -26px;
   color: #1e5128;
   font-weight: bold;
   content: 'ay';
